@@ -1,0 +1,48 @@
+body{
+    background-image:url(background.jpg);
+}
+#dropdown{
+    text-align: center;
+}
+#content{
+    background-color: rgba(162,247,158, 0.8); 
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    width: 75%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#names{
+    background-color: rgba(160,198,240, 0.8);
+    width: 20%;
+    border-radius: 10px;
+    padding: 10px;
+}
+#menuIMG{
+    transition: all 0.3s ease-in-out 0s;
+}
+#menuIMG:hover #menu{
+    display: block;
+}
+#menuIMG:hover{
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+#menu{
+    display: none;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+ul{
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    background-color: rgba(255,163,163, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+}

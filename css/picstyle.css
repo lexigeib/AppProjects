@@ -1,0 +1,34 @@
+.left {
+float: left;
+}
+
+.right{
+	float: right;
+}
+
+.image {
+    width: 100%;
+    height: 500px /* Modify this to fit your needs */
+    display: table;
+}
+
+.image .horizontal {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.image .centered img {
+    margin: 40px auto;
+    display: block;
+}
+
+.center {
+margin: 0 auto;
+width: 80em;
+}
+
+img.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
